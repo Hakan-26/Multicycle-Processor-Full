@@ -1,0 +1,241 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'd:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying d:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/regfile.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:36 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/regfile.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 02:07:36 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/extend.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:36 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/extend.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 02:07:36 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/alu.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:36 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/alu.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 02:07:36 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/mainfsm.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:37 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/mainfsm.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mainfsm
+# 
+# Top level modules:
+# 	mainfsm
+# End time: 02:07:37 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/instrdec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:37 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/instrdec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	instrdec
+# End time: 02:07:37 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/datapath.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:37 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/datapath.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 02:07:37 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/controller.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:37 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 02:07:38 on Apr 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/aludec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:38 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/aludec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 02:07:38 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:38 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module riscv
+# 
+# Top level modules:
+# 	riscv
+# End time: 02:07:38 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/top.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:38 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/top.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 02:07:38 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/mem.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:39 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/mem.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 02:07:39 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor {C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 02:07:39 on Apr 29,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Casper/AppData/Local/quartus_5_mc_processor" C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module riscv_testbench
+# 
+# Top level modules:
+# 	riscv_testbench
+# End time: 02:07:39 on Apr 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  riscv_testbench
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" riscv_testbench 
+# Start time: 02:07:39 on Apr 29,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "mainfsm(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.riscv_testbench(fast)
+# Loading work.top(fast)
+# Loading work.riscv(fast)
+# Loading work.controller(fast)
+# Loading work.instrdec(fast)
+# Loading work.aludec(fast)
+# Loading work.mainfsm(fast)
+# Loading work.datapath(fast)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.mem(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv(30)
+#    Time: 725 ps  Iteration: 1  Instance: /riscv_testbench
+# Break in Module riscv_testbench at C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv line 30
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/PC
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/Instr
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/c/fsm/state
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/SrcA
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/SrcB
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/ALUResult
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/Adr
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/dp/WriteData
+add wave -position insertpoint  \
+sim:/riscv_testbench/dut/rv/c/memwrite
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.riscv_testbench(fast)
+# Loading work.top(fast)
+# Loading work.riscv(fast)
+# Loading work.controller(fast)
+# Loading work.instrdec(fast)
+# Loading work.aludec(fast)
+# Loading work.mainfsm(fast)
+# Loading work.datapath(fast)
+# Loading work.regfile(fast)
+# Loading work.extend(fast)
+# Loading work.alu(fast)
+# Loading work.mem(fast)
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Casper/AppData/Local/quartus_5_mc_processor/simulation/questa/wave.do
+run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv(30)
+#    Time: 725 ps  Iteration: 1  Instance: /riscv_testbench
+# Break in Module riscv_testbench at C:/Users/Casper/AppData/Local/quartus_5_mc_processor/riscv_testbench.sv line 30
+add wave -position insertpoint  \
+sim:/riscv_testbench/MemWrite
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Casper/AppData/Local/quartus_5_mc_processor/simulation/questa/wave.do
+# Causality operation skipped due to absence of debug database file
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
